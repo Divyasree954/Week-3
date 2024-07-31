@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Input Focus</title>
+   <style>
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.focus-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.focus-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+.focus-form input:focus {
+    border-color: #3498db;
+    background-color: #eaf2f8;
+}
+
+   </style>
+</head>
+<body>
+    <form class="focus-form">
+        <input type="text" placeholder="First Name">
+        <input type="text" placeholder="Last Name">
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+    </form>
+</body>
+</html>

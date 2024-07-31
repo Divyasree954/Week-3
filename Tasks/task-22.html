@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Effect with Transitions</title>
+    <style>
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+}
+
+.card {
+    width: 200px;
+    padding: 20px;
+    background-color: rgb(144, 200, 215);
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+    </style>
+</head>
+<body>
+    <div class="card">Touch Me</div>
+</body>
+</html>

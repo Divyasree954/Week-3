@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image Gallery</title>
+    <style>
+ body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 10px;
+}
+
+.gallery img {
+    width: 450px;
+    height: 500px;
+    display: block;
+}
+
+    </style>
+</head>
+<body>
+        <div class="gallery">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_ZAmSvLgvD0i1HobAuCjAkznjSLJMXV2HG65ZZU8wtpQsnbLxMWOYJc05uKK_kSNs_sM&usqp=CAU" alt="">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/006/844/098/small_2x/autumn-landscape-and-snowy-mountain-peaks-fantastic-sunset-vie-photo.jpg" alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvcxSm4GcpM4ZrxHBOS2WUkq8uLw_ojy6nBtRS1ybTso9LaUBMAZveGWAt853tCjXvCWw&usqp=CAU" alt=""> 
+        </div>
+</body>
+</html>

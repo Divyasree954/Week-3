@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Card Layout</title>
+    <style>
+body {
+    margin: 0;
+    padding: 2em;
+    background-color: #f9f9f9;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.card {
+    background-color: white;
+    padding: 16px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.card img {
+    width: 400px;
+    height: 500px;
+}  
+    </style>
+</head>
+<body>
+    <div class="card-container">
+        <div class="card">
+           <img src="https://us.123rf.com/450wm/leonidtit/leonidtit1309/leonidtit130900234/22228560-majestic-mountain-landscape-with-colorful-cloud-dramatic-overcast-sky-carpathian-ukraine-europe.jpg?ver=6" alt="">
+            <h2>Card 1</h2>
+            <p>description</p>
+        </div>
+        <div class="card">
+            <img src="https://i.pinimg.com/originals/d5/0b/d2/d50bd25b9cc865495b31a97e7a1eed18.jpg" alt="">
+            <h2>Card 2</h2>
+            <p>description</p>
+        </div>
+        <div class="card">
+        <img src="https://i.pinimg.com/736x/ee/84/c6/ee84c645f527e6701e6f7521e560275c.jpg" alt="">
+            <h2>Card 3</h2>
+            <p>description </p>
+        </div>
+    </div>
+</body>
+</html>

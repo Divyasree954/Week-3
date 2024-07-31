@@ -1,0 +1,32 @@
+:root {
+    --primary-color: #16222a;
+    --secondary-color: #57866a;
+    --accent-color: #df594a;
+
+    --base-font-size: 16px;
+    --heading-font-size: 2em;
+
+    --padding: 10px;
+    --margin: 10px;
+}
+body {
+    font-size: var(--base-font-size);
+    color: var(--primary-color);
+    padding: var(--padding);
+    margin: var(--margin);
+}
+p {
+    margin: var(--margin) 0;
+    padding: var(--padding);
+}
+h1 {
+    font-size: var(--heading-font-size);
+    color: var(--secondary-color);
+}
+
+button {
+    background-color: var(--accent-color);
+    color: white;
+    padding: var(--padding);
+    margin: var(--margin);
+}

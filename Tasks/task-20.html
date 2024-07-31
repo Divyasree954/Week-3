@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decorative Elements with Pseudo-elements</title>
+    <style>
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.decorative-text {
+    font-size: 1.5em;
+    text-align: center;
+    position: relative;
+    padding: 10px;
+}
+.decorative-text::before,
+.decorative-text::after {
+    content: "*";
+    font-size: 1.5em;
+    color: #e74c3c;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.decorative-text::before {
+    left: -20px;
+}
+
+.decorative-text::after {
+    right: -20px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="decorative-text">
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores pariatur et quisquam eum unde. Repellendus eos, nobis harum ipsum blanditiis veniam accusamus debitis modi inventore odio, dicta exercitationem amet impedit, laboriosam quod? Eaque voluptas quasi fuga dolor iste dolorum facilis vitae nesciunt blanditiis doloremque sequi, cum maiores commodi, similique libero nostrum voluptatum? Sequi rem tempora quia itaque quis dolor qui temporibus eum, autem natus totam perspiciatis voluptate voluptates nihil ad consequuntur voluptatum? Ducimus explicabo dolor, necessitatibus ut adipisci neque ex similique a, assumenda corrupti, architecto laborum. Tempore, quia. Magnam reiciendis necessitatibus sint maiores, repellat natus excepturi veniam ducimus? Aspernatur, qui?
+    </div>
+</body>
+</html>

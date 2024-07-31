@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Transitions</title>
+    <style>
+body,html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.transition-button {
+    padding: 10px 20px;
+    background-color: #48555e;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 1.0s, transform 0.5s;
+}
+.transition-button:hover {
+    background-color: #38060c;
+    transform: scale(1.1);
+}
+ </style>
+</head>
+<body>
+    <button class="transition-button">Hover Me</button>
+</body>
+</html>

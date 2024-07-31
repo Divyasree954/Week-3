@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image</title>
+   <style>
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.responsive-image {
+    width:100%;
+    max-width: 100%;
+    height: 750px;
+}
+
+@media (max-width: 600px) {
+    .responsive-image {
+        width: 100%;
+    }
+}
+   </style>
+<body>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_ZAmSvLgvD0i1HobAuCjAkznjSLJMXV2HG65ZZU8wtpQsnbLxMWOYJc05uKK_kSNs_sM&usqp=CAU" alt="Responsive Image" class="responsive-image">
+</body>
+</html>

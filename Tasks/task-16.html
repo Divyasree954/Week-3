@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes with Links</title>
+   <style>
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.link-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.link-list a {
+    text-decoration: none;
+    color: blue;
+    display: inline-block;
+    padding: 10px;
+}
+
+.link-list a:hover {
+    color: red;
+}
+
+.link-list a:focus {
+    background-color: yellow;
+}
+
+.link-list a:active {
+    text-decoration: underline;
+}
+
+.link-list a:visited {
+    color: purple;
+}
+
+   </style>
+</head>
+<body>
+    <ul class="link-list">
+        <li><a href="#"> https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_ZAmSvLgvD0i1HobAuCjAkznjSLJMXV2HG65ZZU8wtpQsnbLxMWOYJc05uKK_kSNs_sM&usqp=CAU</a></li>
+        <li><a href="#"> https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_ZAmSvLgvD0i1HobAuCjAkznjSLJMXV2HG65ZZU8wtpQsnbLxMWOYJc05uKK_kSNs_sM&usqp=CAU</a></li>
+        <li><a href="#"> https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_ZAmSvLgvD0i1HobAuCjAkznjSLJMXV2HG65ZZU8wtpQsnbLxMWOYJc05uKK_kSNs_sM&usqp=CAU</a></li>
+        <li><a href="#"> https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_ZAmSvLgvD0i1HobAuCjAkznjSLJMXV2HG65ZZU8wtpQsnbLxMWOYJc05uKK_kSNs_sM&usqp=CAU</a></li>
+    </ul>
+</body>
+</html>

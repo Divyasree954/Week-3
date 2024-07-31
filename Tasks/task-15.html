@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizontal Scrolling</title>
+    <style>
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.horizontal-scroll-container {
+    width: 300px;
+    display: flex;
+    overflow-x: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.scroll-item {
+    min-width: 100px;
+    margin-right: 10px;
+    background-color: #1a3d53;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="horizontal-scroll-container">
+        <div class="scroll-item">1</div>
+        <div class="scroll-item">2</div>
+        <div class="scroll-item">3</div>
+        <div class="scroll-item">4</div>
+        <div class="scroll-item">5</div>
+    </div>
+</body>
+</html>

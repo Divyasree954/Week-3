@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Overflow</title>
+<style>
+ body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text-overflow-container {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+ </style>
+</head>
+<body>
+    <div class="text-overflow-container">
+       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, odit!
+    </div>
+</body>
+</html>
